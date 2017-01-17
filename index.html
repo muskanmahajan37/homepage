@@ -24,20 +24,41 @@
     <link rel="author" href="https://plus.google.com/108569130336274162470/posts">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/feeds/rss/">
     <link rel="alternate" type="application/atom+xml" title="Atom" href="/blog/feeds/atom/">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
 
-<form action="/search/" class="navbar-form navbar-right" role="search" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
-    <input type="text" id="search-field" placeholder="Search" type="text" name="q" value="" itemprop="query-input" type="text" name="search_term_string" required />
-    <input type="hidden" name="type" value="">
-</form>
+<div class="container">
+    <div class="search-form">
+        <form action="/search/" class="navbar-form navbar-right" role="search" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+            <input type="text" id="search-field" placeholder="Search" type="text" name="q" value="" itemprop="query-input" type="text" name="search_term_string" required />
+            <input type="hidden" name="type" value="">
+        </form>
+    </div>
+</div>
 
-<h1>THE ONLY FAIR IS NOT FAIR <br/> ENJOY CREATE & SHARE</h1>
+<nav class="navbar">
+    <div class="container">
+        <ul class="navbar-list">
+            <li class="navbar-item"><a class="navbar-link" href="/blog/"></a>Blog</li>
+            <li class="navbar-item"><a class="navbar-link" href="/works/"></a>Code</li>
+            <li class="navbar-item"><a class="navbar-link" href="/literature/"></a>Literature</li>
+            <li class="navbar-item"><a class="navbar-link" href="/design/"></a>Design</li>
+        </ul>
+    </div>
+</nav>
 
-<footer>
+<div class="container">
+    <h2>THE ONLY FAIR IS NOT FAIR</h2>
+    <h1>ENJOY CREATE & SHARE</h1>
+</div>
 
-<div class="powered">Powered by Mezzanine & Django & Material Design Lite</div>
-<div class="copyright">Copyright (c) 2017 Phodal Huang</div>
+<footer class="container">
+    <div class="powered">Powered by Mezzanine & Django & Material Design Lite</div>
+    <div class="copyright">Copyright (c) 2017 Phodal Huang</div>
 </footer>
 
 <script type="application/ld+json">
