@@ -63,3 +63,11 @@
 .navbar-link.active {
     color: #33C3F0;
 }
+
+.content {
+    text-align: center;
+}
+
+.content .slogan {
+    padding: 40px 0;
+}
