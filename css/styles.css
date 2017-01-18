@@ -75,3 +75,22 @@ body {
 .content .slogan {
     padding: 40px 0;
 }
+
+.social-links {
+    background-color: #179ED6;
+}
+
+.social-links a.navbar-link {
+    color: #fff;
+}
+
+.copyright {
+    clear: left;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.copyright p {
+    margin: 0;
+    padding: 0;
+}
