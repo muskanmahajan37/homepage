@@ -11,6 +11,10 @@
     margin: 0;
 }
 
+.search-form form button {
+    margin-bottom: 0;
+}
+
 .navbar + .docs-section {
     border-top-width: 0;
 }
