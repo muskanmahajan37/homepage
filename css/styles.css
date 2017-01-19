@@ -71,7 +71,8 @@ body {
 
 .slogan-section {
     padding: 5rem 0;
-    background-color: #eee;
+    height: auto;
+    background: #fbfbfb url("../imgs/small.svg") center no-repeat;
 }
 
 .slogan-section {
