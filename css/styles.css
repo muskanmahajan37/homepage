@@ -69,12 +69,13 @@ body {
     color: #179ED6;
 }
 
-.content {
-    text-align: center;
+.slogan-section {
+    padding: 5rem 0;
+    background-color: #eee;
 }
 
-.content .slogan {
-    padding: 40px 0;
+.slogan-section {
+    text-align: center;
 }
 
 .social-links {
