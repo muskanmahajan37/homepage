@@ -31,8 +31,8 @@ body {
     height: 6.5rem;
     background: #fff;
     z-index: 99;
-    border-top: 1px solid  #179ed6;
-    border-bottom: 1px solid  #179ed6;
+    border-top: 1px solid  #eee;
+    border-bottom: 1px solid  #eee;
 }
 
 .navbar-spacer {
@@ -71,12 +71,20 @@ body {
 
 .slogan-section {
     padding: 5rem 0;
-    height: auto;
+    color: #fbfbfb;
+    -webkit-text-fill-color: #179ED6; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fff;
     background: #fbfbfb url("../imgs/small.svg") center no-repeat;
+    border-bottom: 1px solid  #eee;
 }
 
 .slogan-section {
     text-align: center;
+}
+
+.slogan {
+    padding: 4rem 0;
 }
 
 .social-links {
@@ -86,6 +94,18 @@ body {
 .social-links a.navbar-link {
     color: #fff;
     margin-right: 10px;
+}
+
+.pwd {
+    height: auto;
+}
+
+.pwd .columns h3 {
+    text-align: center;
+}
+
+.pwd .row .columns{
+    padding-top: 2rem;
 }
 
 .copyright {
@@ -100,7 +120,7 @@ body {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     height: auto;
     bottom: 0;
     left: 0;
