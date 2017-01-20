@@ -3,6 +3,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.container {
+    max-width: 1080px;
+}
+
 .search-form {
     float: right;
 }
@@ -105,7 +109,8 @@ body {
 }
 
 .pwd .row .columns{
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 .copyright {
@@ -132,7 +137,7 @@ footer {
 .copyright-section {
     width: 80%;
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 1080px;
 }
 
 footer .navbar-link {
