@@ -76,19 +76,17 @@ body {
 .slogan-section {
     padding: 5rem 0;
     color: #fbfbfb;
-    -webkit-text-fill-color: #179ED6; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-fill-color: #ccc;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #50616d;
     background: #fbfbfb url("../imgs/small.svg") center no-repeat;
     border-bottom: 1px solid  #eee;
-}
-
-.slogan-section {
     text-align: center;
 }
 
 .slogan {
     padding: 4rem 0;
+    opacity: 0.9;
 }
 
 .social-links {
