@@ -111,6 +111,15 @@ body {
     padding-bottom: 1rem;
 }
 
+.pwd ul {
+    margin-bottom: 1.5rem;
+}
+
+.pwd h4 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
 .copyright {
     clear: left;
     padding: 10px 0;
