@@ -151,6 +151,11 @@ footer .navbar-link {
     text-transform: capitalize;
 }
 
+footer .copyright a {
+    text-decoration: none;
+    color: #fff;
+}
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
